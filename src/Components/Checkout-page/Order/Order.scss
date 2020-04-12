@@ -1,0 +1,15 @@
+.Order {
+    background-color: white;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    width: 80%;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+
+    &__ingredients {
+        display: inline-block;
+        margin: 5px 8px;
+        padding: 5px;
+        border: 1px solid #333;
+    }
+}

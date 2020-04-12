@@ -1,0 +1,17 @@
+
+.Menubtn::after {
+    color: #fff;
+    display: inline-block;
+    content: '\25BA';
+    transform: scale(1.2);
+}
+
+.Menubtn:active::after {
+    color: #40A4C8;
+}
+
+@media (min-width: 500px) {
+    .Menubtn::after {
+        display: none;
+    }
+}

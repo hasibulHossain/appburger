@@ -1,0 +1,33 @@
+.burger {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 300px) {
+    .burger {
+        width: 280px;
+        height: 240px;
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 500px) {
+    .burger {
+        width: 450px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 1000px) {
+    .burger {
+        width: 700px;
+        height: 600px;
+        overflow-y: scroll;
+    }
+}
