@@ -12,7 +12,7 @@ import Success from './Components/Success/Success';
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="/appburger">
         <ErrorBoundary>
           <div>
             <Layout>

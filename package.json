@@ -1,5 +1,6 @@
 {
   "name": "burger_app",
+  "homepage": "https://hasibulHossain.github.com/appburger",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
