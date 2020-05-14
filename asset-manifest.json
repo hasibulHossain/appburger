@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/appburger/static/css/main.58f43294.chunk.css",
-    "main.js": "/appburger/static/js/main.81716a64.chunk.js",
-    "main.js.map": "/appburger/static/js/main.81716a64.chunk.js.map",
+    "main.css": "/appburger/static/css/main.77182d2b.chunk.css",
+    "main.js": "/appburger/static/js/main.e94c807b.chunk.js",
+    "main.js.map": "/appburger/static/js/main.e94c807b.chunk.js.map",
     "runtime-main.js": "/appburger/static/js/runtime-main.1724721e.js",
     "runtime-main.js.map": "/appburger/static/js/runtime-main.1724721e.js.map",
     "static/js/2.a850d68e.chunk.js": "/appburger/static/js/2.a850d68e.chunk.js",
     "static/js/2.a850d68e.chunk.js.map": "/appburger/static/js/2.a850d68e.chunk.js.map",
     "404.html": "/appburger/404.html",
     "index.html": "/appburger/index.html",
-    "precache-manifest.0762311127c1013c4d73f8d5f94dcbeb.js": "/appburger/precache-manifest.0762311127c1013c4d73f8d5f94dcbeb.js",
+    "precache-manifest.ec34891449c31a9ed965634c734a2062.js": "/appburger/precache-manifest.ec34891449c31a9ed965634c734a2062.js",
     "service-worker.js": "/appburger/service-worker.js",
-    "static/css/main.58f43294.chunk.css.map": "/appburger/static/css/main.58f43294.chunk.css.map",
+    "static/css/main.77182d2b.chunk.css.map": "/appburger/static/css/main.77182d2b.chunk.css.map",
     "static/js/2.a850d68e.chunk.js.LICENSE.txt": "/appburger/static/js/2.a850d68e.chunk.js.LICENSE.txt",
     "static/media/burger-logo.png": "/appburger/static/media/burger-logo.b8503d26.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1724721e.js",
     "static/js/2.a850d68e.chunk.js",
-    "static/css/main.58f43294.chunk.css",
-    "static/js/main.81716a64.chunk.js"
+    "static/css/main.77182d2b.chunk.css",
+    "static/js/main.e94c807b.chunk.js"
   ]
 }

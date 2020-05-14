@@ -4,12 +4,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appburger/404.html"
   },
   {
-    "revision": "c3c2aadeec3adeb333f48bec59f80806",
+    "revision": "eda3d521b41f2ef39ea1a387a778645f",
     "url": "/appburger/index.html"
   },
   {
-    "revision": "f2999104a1c04ee9a8a7",
-    "url": "/appburger/static/css/main.58f43294.chunk.css"
+    "revision": "39162fff78fbce8d9066",
+    "url": "/appburger/static/css/main.77182d2b.chunk.css"
   },
   {
     "revision": "a76452ec759d26c0f4e9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appburger/static/js/2.a850d68e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2999104a1c04ee9a8a7",
-    "url": "/appburger/static/js/main.81716a64.chunk.js"
+    "revision": "39162fff78fbce8d9066",
+    "url": "/appburger/static/js/main.e94c807b.chunk.js"
   },
   {
     "revision": "d4a56d6f4fc9acbefce7",
