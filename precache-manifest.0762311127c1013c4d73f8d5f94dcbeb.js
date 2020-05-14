@@ -4,24 +4,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appburger/404.html"
   },
   {
-    "revision": "b390edb27cd9305635379c1d006cb57f",
+    "revision": "c3c2aadeec3adeb333f48bec59f80806",
     "url": "/appburger/index.html"
   },
   {
-    "revision": "6ed147a7025a555863a5",
-    "url": "/appburger/static/css/main.3ea9ca80.chunk.css"
+    "revision": "f2999104a1c04ee9a8a7",
+    "url": "/appburger/static/css/main.58f43294.chunk.css"
   },
   {
-    "revision": "f1e2c70256675123cade",
-    "url": "/appburger/static/js/2.934eeba2.chunk.js"
+    "revision": "a76452ec759d26c0f4e9",
+    "url": "/appburger/static/js/2.a850d68e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/appburger/static/js/2.934eeba2.chunk.js.LICENSE.txt"
+    "url": "/appburger/static/js/2.a850d68e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ed147a7025a555863a5",
-    "url": "/appburger/static/js/main.ca971c82.chunk.js"
+    "revision": "f2999104a1c04ee9a8a7",
+    "url": "/appburger/static/js/main.81716a64.chunk.js"
   },
   {
     "revision": "d4a56d6f4fc9acbefce7",
