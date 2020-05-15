@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/appburger/static/css/main.77182d2b.chunk.css",
-    "main.js": "/appburger/static/js/main.e94c807b.chunk.js",
-    "main.js.map": "/appburger/static/js/main.e94c807b.chunk.js.map",
-    "runtime-main.js": "/appburger/static/js/runtime-main.1724721e.js",
-    "runtime-main.js.map": "/appburger/static/js/runtime-main.1724721e.js.map",
-    "static/js/2.a850d68e.chunk.js": "/appburger/static/js/2.a850d68e.chunk.js",
-    "static/js/2.a850d68e.chunk.js.map": "/appburger/static/js/2.a850d68e.chunk.js.map",
+    "main.css": "/appburger/static/css/main.5a80a63f.chunk.css",
+    "main.js": "/appburger/static/js/main.7b4fc290.chunk.js",
+    "main.js.map": "/appburger/static/js/main.7b4fc290.chunk.js.map",
+    "runtime-main.js": "/appburger/static/js/runtime-main.bd133da5.js",
+    "runtime-main.js.map": "/appburger/static/js/runtime-main.bd133da5.js.map",
+    "static/js/2.dd2706bf.chunk.js": "/appburger/static/js/2.dd2706bf.chunk.js",
+    "static/js/2.dd2706bf.chunk.js.map": "/appburger/static/js/2.dd2706bf.chunk.js.map",
+    "static/css/3.a3b82d5e.chunk.css": "/appburger/static/css/3.a3b82d5e.chunk.css",
+    "static/js/3.5d170275.chunk.js": "/appburger/static/js/3.5d170275.chunk.js",
+    "static/js/3.5d170275.chunk.js.map": "/appburger/static/js/3.5d170275.chunk.js.map",
     "404.html": "/appburger/404.html",
     "index.html": "/appburger/index.html",
-    "precache-manifest.ec34891449c31a9ed965634c734a2062.js": "/appburger/precache-manifest.ec34891449c31a9ed965634c734a2062.js",
+    "precache-manifest.28fc4e2c726e15a9b0c6d5d982a8679e.js": "/appburger/precache-manifest.28fc4e2c726e15a9b0c6d5d982a8679e.js",
     "service-worker.js": "/appburger/service-worker.js",
-    "static/css/main.77182d2b.chunk.css.map": "/appburger/static/css/main.77182d2b.chunk.css.map",
-    "static/js/2.a850d68e.chunk.js.LICENSE.txt": "/appburger/static/js/2.a850d68e.chunk.js.LICENSE.txt",
+    "static/css/3.a3b82d5e.chunk.css.map": "/appburger/static/css/3.a3b82d5e.chunk.css.map",
+    "static/css/main.5a80a63f.chunk.css.map": "/appburger/static/css/main.5a80a63f.chunk.css.map",
+    "static/js/2.dd2706bf.chunk.js.LICENSE.txt": "/appburger/static/js/2.dd2706bf.chunk.js.LICENSE.txt",
     "static/media/burger-logo.png": "/appburger/static/media/burger-logo.b8503d26.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1724721e.js",
-    "static/js/2.a850d68e.chunk.js",
-    "static/css/main.77182d2b.chunk.css",
-    "static/js/main.e94c807b.chunk.js"
+    "static/js/runtime-main.bd133da5.js",
+    "static/js/2.dd2706bf.chunk.js",
+    "static/css/main.5a80a63f.chunk.css",
+    "static/js/main.7b4fc290.chunk.js"
   ]
 }
