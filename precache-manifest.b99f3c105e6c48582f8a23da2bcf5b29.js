@@ -4,15 +4,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appburger/404.html"
   },
   {
-    "revision": "6a6151c08acab0e7a5aa5744c4804f04",
+    "revision": "f385f6fc4239c9aa07f5fbceae496433",
     "url": "/appburger/index.html"
   },
   {
-    "revision": "a960bc06220521393fb4",
+    "revision": "d4c58e5eefe573329113",
     "url": "/appburger/static/css/3.a3b82d5e.chunk.css"
   },
   {
-    "revision": "14fe91bab13a14b2829d",
+    "revision": "e4c83c3635f2b75ea7a8",
     "url": "/appburger/static/css/main.5a80a63f.chunk.css"
   },
   {
@@ -24,16 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appburger/static/js/2.dd2706bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a960bc06220521393fb4",
-    "url": "/appburger/static/js/3.5d170275.chunk.js"
+    "revision": "d4c58e5eefe573329113",
+    "url": "/appburger/static/js/3.0b1b286c.chunk.js"
   },
   {
-    "revision": "14fe91bab13a14b2829d",
-    "url": "/appburger/static/js/main.7b4fc290.chunk.js"
+    "revision": "e4c83c3635f2b75ea7a8",
+    "url": "/appburger/static/js/main.9c823ca1.chunk.js"
   },
   {
-    "revision": "7eccb31bea946e8c08e1",
-    "url": "/appburger/static/js/runtime-main.bd133da5.js"
+    "revision": "9368cf2b837a891218cf",
+    "url": "/appburger/static/js/runtime-main.4411499c.js"
   },
   {
     "revision": "b8503d262bffbfb7c67fd6762963e7d1",
