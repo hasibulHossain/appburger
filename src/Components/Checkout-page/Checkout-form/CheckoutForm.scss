@@ -1,24 +1,48 @@
 .CheckoutForm {
-    position: relative;
     padding-top: 50px;
-}
-
-.CheckoutForm form {
+    padding-bottom: 50px;
     width: 80%;
     margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
-.CheckoutForm label {
-    width: 80%;
-    display: block;
+.form {
+    width: 60%;
     margin: 0 auto;
-    padding-bottom: 10px;
+
+    &__submit {
+        outline: none;
+        background-color: peru;
+        border: 2px solid peru;
+        border-radius: 4px;
+        color: #fff;
+        display: block;
+        font-family: inherit;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%;
+        cursor: pointer;
+        transition: 100ms all ease-in;
+    }
+
+    &__submit:disabled {
+        background-color: #e0e0e0;
+        border: 2px solid #e0e0e0;
+    }
+
+    &__submit:active {
+        background-color: rgb(221, 140, 59);
+        border: 2px solid rgb(221, 140, 59);
+    }
 }
-.CheckoutForm input {
-    padding: 10px;
-    display: inline-block;
-    width: 100%;
+
+@media (max-width: 1000px) {
+    .form {
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .form {
+        width: 100%;
+    }
 }

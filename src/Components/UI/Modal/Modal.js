@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Modal.css';
-import Aux from '../../../Hoc/Aux';
 import Backdrop from '../Backdrop/Backdrop';
 
 class Modal extends React.Component {
@@ -10,19 +9,16 @@ class Modal extends React.Component {
     }
 
     render() {
+        let classes = ['Modal']
+        if(this.props.openModal) classes.push('openModal')
+
         return (
-            <Aux>
-                <Backdrop show={this.props.openModal} closeBackdrop={this.props.closeBackdrop}/>
-                <div className="Modal"
-                style={
-                    {
-                        transform: this.props.openModal ? 'translateY(0)' : 'translateY(-100vh)',
-                        opacity: this.props.openModal ? 1 : 0
-                    }
-                } >
+            <>
+                <Backdrop show={this.props.openModal} closeBackdrop={this.props.cancelPurchase}/>
+                <div className={classes.join(' ')} >
                     {this.props.children}
                 </div>
-            </Aux>
+            </>
         )
     }
 }

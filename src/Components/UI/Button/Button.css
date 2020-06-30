@@ -22,3 +22,7 @@
 .Button-danger {
     color: #944317;
 }
+
+.Button:disabled {
+    color: #888888;
+}

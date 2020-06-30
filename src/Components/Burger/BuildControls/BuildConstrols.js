@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux'
 
 import './BuildControls.css'
 import { v4 as uuidv4 } from 'uuid'
@@ -11,11 +12,13 @@ const controls = [
     {type: 'cheese'}
 ]
 
-class buildControls extends React.Component {
+class BuildControls extends React.Component {
     shouldComponentUpdate(nextProps, nextState) {
         return nextProps.price !== this.props.price ||
         nextProps.openModal !== this.props.openModal ||
-        nextProps.children !== this.props.children
+        nextProps.children !== this.props.children ||
+        nextProps.purchasable !== this.props.purchasable ||
+        nextProps.disable !== this.props.disable
     }
     render() {
         return (
@@ -31,10 +34,16 @@ class buildControls extends React.Component {
                 })}
                 <button className="OrderButton"
                 disabled={!this.props.purchasable}
-                onClick={this.props.checkout} >order now</button>
+                onClick={this.props.checkout} >{(!this.props.token && this.props.purchasable) ? "Sign in to Order" : "Order Now"}</button>
             </div>
         )
     }
 }
 
-export default buildControls
+const mapStateToProps = state => {
+    return {
+        token: state.authRTR.token
+    }
+}
+
+export default connect(mapStateToProps)(BuildControls)

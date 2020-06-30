@@ -5,7 +5,8 @@ import CheckoutSummery from '../../Components/Checkout-page/CheckoutSummery';
 import './Checkout.css'
 
 import CheckoutForm from '../../Components/Checkout-page/Checkout-form/CheckoutForm';
-import {Route} from 'react-router-dom';
+import {Route, Redirect} from 'react-router-dom';
+import {connect} from 'react-redux';
 
 class Checkout extends React.Component {
     constructor(props) {
@@ -42,18 +43,22 @@ class Checkout extends React.Component {
         return (
             <div className="Checkout">
                 <p style={{textAlign: 'center', fontSize: '50px'}}>Checkout</p>
-                {/* <Burger ingredients={this.state.ingredients} /> */}
                 <div className="Checkout__OrderSummery">
-                    <CheckoutSummery ingredients={this.state.ingredients} totalPrice={this.state.totalPrice} />
+                    {this.props.ing ? <CheckoutSummery/> : <Redirect to="/" />}
+                    
                     <Route 
-                    path={this.props.match.path + '/contact'} 
-                    render={() => <CheckoutForm 
-                                    ingredients={this.state.ingredients}
-                                    totalPrice={this.state.totalPrice} />} />
+                    path={this.props.match.path + '/contact'}
+                    component= {CheckoutForm} />
                 </div>
             </div>
         )
     }
 }
 
-export default Checkout;
+const mapStateToProps = state => {
+    return {
+        ing: state.ingsRTR.ingredients
+    }
+}
+
+export default connect(mapStateToProps)(Checkout);

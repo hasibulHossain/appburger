@@ -10,7 +10,7 @@ const toolbar = props => {
             <Menu clicked={props.CloseSideDrawerHandler} />
             <Logo height="70%" />
             <nav className="onlyDesktop">
-                <NavigationItems />
+                <NavigationItems isAuthenticate={props.isAuth} />
             </nav>
         </header>
     )

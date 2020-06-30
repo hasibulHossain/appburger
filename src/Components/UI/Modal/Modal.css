@@ -2,19 +2,26 @@
     position: fixed;
     z-index: 500;
     background-color: white;
+    border-radius: 10px;
     width: 70%;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px black;
-    padding: 16px;
-    left: 15%;
-    top: 30%;
+    border: 1px solid rgb(241, 241, 241);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.247);
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100vh);
     box-sizing: border-box;
-    transition: all 0.3s ease-out;
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+
+.Modal.openModal {
+    transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 @media (min-width: 600px) {
     .Modal {
         width: 500px;
-        left: calc(50% - 250px);
     }
 }

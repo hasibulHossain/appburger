@@ -1,0 +1,57 @@
+
+.Input {
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+   position: relative;
+   
+   &__item {
+      border: 2px solid #f0f0f0;
+      border-radius: 4px;
+      display: block;
+      font-family: inherit;
+      font-size: 14px;
+      padding: 10px;
+      width: 100%;
+   }
+
+   &__select {
+      outline: none;
+      border: none;
+      font-family: inherit;
+      font-size: 14px;
+      padding: 10px;
+      width: 100%;
+      background: #ececec;
+      border-radius: 4px;
+
+      &__option {
+         background: #ececec;
+      }
+   }
+   
+   &__item:focus {
+      outline: 0;
+      border-color: #777;
+   }
+   
+   &__label {
+      display: block;
+      margin-bottom: 5px;
+   }
+
+   &__errormassege {
+      color: #e74c3c;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      visibility: hidden;
+   }
+}
+
+.Input.error .Input__item {
+   border-color: #e74c3c;
+}
+
+.Input.error .Input__errormassege {
+   visibility: visible;
+}

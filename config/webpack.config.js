@@ -534,6 +534,11 @@ module.exports = function(webpackEnv) {
             : undefined
         )
       ),
+      new HtmlWebpackPlugin({
+        filename: '404.html',
+        template: 'public/404.html',
+        chunks: ['errorEntry']
+      }),
       // Inlines the webpack runtime script. This script is too small to warrant
       // a network request.
       // https://github.com/facebook/create-react-app/issues/5358
